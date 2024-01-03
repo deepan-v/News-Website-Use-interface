@@ -1,0 +1,117 @@
+.NavbarItems{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255)
+}
+
+.NavTop{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 10px;
+    align-items: center;
+    height: 70px;
+}
+
+.NavInput{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.Navotn :nth-child(1){
+    border-radius: 2px;
+    background-color: rgb(226, 9, 9);
+    border: none;
+    color: rgb(253, 252, 252);
+    padding: 10px 15px;
+}
+
+.Navotn :nth-child(2){
+    border-radius: 2px;
+    margin-left: 5px;
+    background-color: rgb(245, 237, 237);
+    border: 1px solid #ECECEC;
+    font-weight:bold;
+    color: black;
+    padding: 10px 15px;
+}
+
+.inputitems{
+    display: flex;
+    gap: 10px;
+}
+hr{
+    margin-top: 10px;
+    height: 1px; 
+    background-color: rgb(235, 225, 225); 
+    border: none; 
+
+}
+
+.Navbottom{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.ulToflex{
+    display: flex;
+    gap: 30px;
+}
+
+.ulToflex > li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.FlexEnd{
+    display: flex;
+    gap: 10px;
+}
+
+.flexCenter > p{
+ font-size: 14px;
+ color: grey;
+ /* border: 1px solid red; */
+ min-width: 170px;
+
+}
+.flexCenter{
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.flexCenter::-webkit-scrollbar{
+    width: 0;
+}
+
+.ulToflex > li > a{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .Navbottom {
+      display: none;
+    }
+    .Navotn{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+    }
+  }

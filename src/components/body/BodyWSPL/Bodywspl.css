@@ -1,0 +1,30 @@
+.circle , li{
+    list-style-type: circle;
+}
+
+
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.ragul2{
+    width: 500px;
+    height: 350px;
+}
+
+.Bodywsplleft{
+    display: flex;
+    gap: 40px;
+ 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+
+

@@ -1,0 +1,45 @@
+
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.SameAlign{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagepurpose{
+    display: flex;
+    gap: 10px;
+}
+
+.imagepurpose > img{
+    width: 100px;
+}
+
+.imgItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.FirstContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    max-width: 400px;
+    
+}
+
+.Entire{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

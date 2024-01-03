@@ -1,0 +1,83 @@
+.Footer{
+    /* padding: 0px 10px; */
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+
+.OnlyItems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Largclass{
+    max-width: 500px;
+}
+
+.RighFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.RighFooterinsideTop{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+
+.RighFooter{
+
+}
+.RighFooterinsideTomm{
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.RighFooterinside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.RighFooterinside>p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Largclass{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.OnlyItems>p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Flexend{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.Flexend >p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}

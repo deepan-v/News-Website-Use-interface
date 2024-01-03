@@ -1,0 +1,136 @@
+.BodyMiddle{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.ParaforRaghul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Pararaghulitems{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.BodyMiddleTop{
+    display: flex;flex-direction: column;
+    gap: 20px;
+}
+
+.BodyMiddleMid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.OnlyPara>p{
+    font-size: 14px;
+}
+
+.Forlear{
+    color: gray;
+}
+
+.OnlyPara{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Forwidth{
+    width: 301px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.IRcontent{
+   
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px;
+    
+}
+
+.IrTop{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 235, 237);
+    padding: 10px;
+    align-items: center;
+}
+.imgcontent{
+    background-color: rgb(245, 235, 237);
+    display: flex;
+    gap: 5px;
+}
+
+.irItems{
+    background-color: rgb(245, 235, 237);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 10px;
+}
+.SeeAll{
+    background-color:white;
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(202, 201, 198);
+    font-size: 13px;
+}
+.ikeimg{
+    width: 320px;
+}
+.BodyMiddleBotttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: o;
+    align-items: center;
+    gap: 20px;
+}
+
+.Subscribe :nth-child(3){
+   width: 100px;
+}
+.Subscribe :nth-child(2){
+    border: none;
+    border-bottom: 1px solid rgb(88, 87, 87);
+}
+
+.Subscribe > button {
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+.PararaitemEnd{
+    display: flex;
+    gap: 30px;
+    /* width: 413px; */
+
+}
+
+.raghulimage{
+    width: 100%;
+}
+
+
+
